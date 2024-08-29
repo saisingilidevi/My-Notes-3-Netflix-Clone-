@@ -1,0 +1,36 @@
+*{
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image:url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWCgnxNvGHE0oEhLVP7ptbmHU_Fsu_gRIIlt8_NsI4vDhjjfW6Q_tCOsQNVP32wRc9VvGJMhiDAoPsN1xSgnl-B1C-2iwXWq4m1R.jpg?r=740) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 650px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 3% 1%;
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 3px;
+}
+h1{
+    font-size: 1.2rem;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    font-weight: 200;
+    padding: 10px 50px;
+
+}
